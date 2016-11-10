@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bike" translatesAutoresizingMaskIntoConstraints="NO" id="qoo-JK-1jh"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tam" translatesAutoresizingMaskIntoConstraints="NO" id="OW8-6y-aJh">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="194" id="Plh-OJ-v68"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="qoo-JK-1jh" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="0sU-9r-sMu"/>
+                            <constraint firstItem="qoo-JK-1jh" firstAttribute="centerX" secondItem="OW8-6y-aJh" secondAttribute="centerX" id="AMT-xx-lJZ"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="OW8-6y-aJh" secondAttribute="bottom" constant="350" id="RHE-gI-WwT"/>
+                            <constraint firstItem="qoo-JK-1jh" firstAttribute="bottom" secondItem="xb3-aO-Qok" secondAttribute="top" id="S8x-kI-30q"/>
+                            <constraint firstItem="qoo-JK-1jh" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="YbY-gs-dwJ"/>
+                            <constraint firstItem="OW8-6y-aJh" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="80" id="Zzj-Yb-vFs"/>
+                            <constraint firstItem="OW8-6y-aJh" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="rQu-4A-mCH"/>
+                        </constraints>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bike" width="1200" height="1805"/>
+        <image name="tam" width="384" height="78"/>
+    </resources>
+</document>

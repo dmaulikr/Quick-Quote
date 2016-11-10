@@ -1,0 +1,15 @@
+PODS:
+  - Graphs (0.1.2)
+  - SACountingLabel (0.1.1)
+
+DEPENDENCIES:
+  - Graphs (~> 0.1.2)
+  - SACountingLabel
+
+SPEC CHECKSUMS:
+  Graphs: 08e8c2ee01dc13c96222dfd92ccb018d14748f4c
+  SACountingLabel: 6b0c2a177b77e65ea63772e50f4d4285bb6d5a71
+
+PODFILE CHECKSUM: 24fad5421f921bed4cbf23de6840a72e1f8a310b
+
+COCOAPODS: 1.1.1

@@ -1,0 +1,838 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05C51CD0745A9C40C59CC1E45DCA8660 /* BarGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCA17D3B15660072D6CE1B085AA506D /* BarGraphView.swift */; };
+		07420C1F68CEB3CA9E66FF663C49EB5C /* SACountingLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DB72EAD60D637EEAA2315849179986ED /* SACountingLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		086D238E9B930ABDDCCCF8A51DF18E61 /* LineGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E442B5FE51A49DC32551D6C84C04894 /* LineGraphView.swift */; };
+		118185AC6830562723C71DC0E3A4F8DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		1BFF4FB2F63A06B7C3DCE7198D9ACCBE /* Pods-CreditApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C2618214445CB9BDA390858D6FC229 /* Pods-CreditApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26CBEB259F7EEF2A5FD04637D19F8E3C /* Graphs-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CFE3486C4F2835790E8342F4BDF497B3 /* Graphs-dummy.m */; };
+		27D1787B9C566BC3D52136B035FE5AEF /* Pods-CreditApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4DAB243346996614DACAC9CBAA57FB /* Pods-CreditApp-dummy.m */; };
+		368A34F78A8B09584F33BC2FE8AACAFD /* SACountingLabel.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5A80BA24D0109DC6017D04A76A415FC3 /* SACountingLabel.bundle */; };
+		49D0900318E0279CA383FBF50FD63CC9 /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1655D1A194E5DE89F1015904E5714B1A /* Graph.swift */; };
+		4C1B1578CEA3CD482D8AD350A56861B1 /* GraphsExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AA464C587AD3E74CAE05B4A80FD0D8 /* GraphsExtensions.swift */; };
+		4C4BAEBE424486C710F024630E6BCD63 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBC48C71E06CF30999603A5441D5E99 /* GraphView.swift */; };
+		7DCA85E61A67827BD7C3DBA3D5E61752 /* MultiBarGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A8678A94B6B71B4ADFB43523AE10FA /* MultiBarGraphView.swift */; };
+		8DF3C53EFE3748FE30D3EB2884AEAC66 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		99B8945FF929A5F531A0F65ECC659E32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		CAB74D2E3218B1873B97CD9AFBC95503 /* Graphs-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 42FE6F08D078AA4BC80EACD86C63110E /* Graphs-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D75ACCF8A1920568466E61665EE228D3 /* SACountingLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 460D07B5A336E9B41F43FA955EE2DF68 /* SACountingLabel-dummy.m */; };
+		EFF8A44EA190B89FC5034FC6C29AE8DC /* PieGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E178E7D68480890670CF13775270883 /* PieGraphView.swift */; };
+		F62B3838848D567DD12AA41C7245A85A /* SACountingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1242ED073B99A9D48D19D9ED8413388 /* SACountingLabel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9C30875CD066A8797174BEF441826A35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0381CD0E87A344E752FAC87DAEB84AD;
+			remoteInfo = "SACountingLabel-SACountingLabel";
+		};
+		EC996D03C6ADC10EF008A3687FF552CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D49BA65D4364C8BF903247CFCC984149;
+			remoteInfo = SACountingLabel;
+		};
+		F78C016D87242A28FF259E1013A6D221 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9D31A7ECD48D53E170B20BA419477B9;
+			remoteInfo = Graphs;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06AA464C587AD3E74CAE05B4A80FD0D8 /* GraphsExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GraphsExtensions.swift; path = Graphs/GraphsExtensions.swift; sourceTree = "<group>"; };
+		08F52EBC9B71333DDA7F73529EE3899F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1655D1A194E5DE89F1015904E5714B1A /* Graph.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Graph.swift; path = Graphs/Graph.swift; sourceTree = "<group>"; };
+		2E178E7D68480890670CF13775270883 /* PieGraphView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieGraphView.swift; path = Graphs/PieGraphView.swift; sourceTree = "<group>"; };
+		32DC232FB7D97D536DE7D6E51FF5F678 /* SACountingLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SACountingLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3788EED6762EDC2B8A160C567A6CE9F2 /* Graphs.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Graphs.modulemap; sourceTree = "<group>"; };
+		3DCA17D3B15660072D6CE1B085AA506D /* BarGraphView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarGraphView.swift; path = Graphs/BarGraphView.swift; sourceTree = "<group>"; };
+		42FE6F08D078AA4BC80EACD86C63110E /* Graphs-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Graphs-umbrella.h"; sourceTree = "<group>"; };
+		460D07B5A336E9B41F43FA955EE2DF68 /* SACountingLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SACountingLabel-dummy.m"; sourceTree = "<group>"; };
+		4C3010A29B0869A23130240F25F1D1D6 /* SACountingLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SACountingLabel.xcconfig; sourceTree = "<group>"; };
+		4EBFE2206EF8F6BD87CC54581ACE50FA /* SACountingLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SACountingLabel.modulemap; sourceTree = "<group>"; };
+		5227D9A4E386959F4B3F08DFC0B2B7F4 /* ResourceBundle-SACountingLabel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SACountingLabel-Info.plist"; sourceTree = "<group>"; };
+		57A8678A94B6B71B4ADFB43523AE10FA /* MultiBarGraphView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultiBarGraphView.swift; path = Graphs/MultiBarGraphView.swift; sourceTree = "<group>"; };
+		5A80BA24D0109DC6017D04A76A415FC3 /* SACountingLabel.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SACountingLabel.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		69576099CE206B264CE2C1E4A53CA9A1 /* Pods_CreditApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CreditApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A4D7AF437F2C141C72A8C1DA2708332 /* Pods-CreditApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CreditApp.debug.xcconfig"; sourceTree = "<group>"; };
+		6D8C5A3570BBDF64A88DAF325B098AC2 /* Graphs-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Graphs-prefix.pch"; sourceTree = "<group>"; };
+		6E442B5FE51A49DC32551D6C84C04894 /* LineGraphView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LineGraphView.swift; path = Graphs/LineGraphView.swift; sourceTree = "<group>"; };
+		71EC80E7EBE7BC16B755CD61F65F7B8F /* Graphs.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Graphs.xcconfig; sourceTree = "<group>"; };
+		86C2618214445CB9BDA390858D6FC229 /* Pods-CreditApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CreditApp-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E9C12184A149C04F8DA27A093539827 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A00B27252E624ED53FDFA250E6C91824 /* Pods-CreditApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CreditApp-frameworks.sh"; sourceTree = "<group>"; };
+		BE8FAB28E4ED3014220655A6075D38F5 /* Graphs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Graphs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA7F85DB6821CF5AA8255F2EABFC42BB /* SACountingLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SACountingLabel-prefix.pch"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CC4DAB243346996614DACAC9CBAA57FB /* Pods-CreditApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CreditApp-dummy.m"; sourceTree = "<group>"; };
+		CCBC48C71E06CF30999603A5441D5E99 /* GraphView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GraphView.swift; path = Graphs/GraphView.swift; sourceTree = "<group>"; };
+		CFE3486C4F2835790E8342F4BDF497B3 /* Graphs-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Graphs-dummy.m"; sourceTree = "<group>"; };
+		D7361D13AB02CE447ECE45D507B6F0E5 /* Pods-CreditApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CreditApp.release.xcconfig"; sourceTree = "<group>"; };
+		DB72EAD60D637EEAA2315849179986ED /* SACountingLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SACountingLabel-umbrella.h"; sourceTree = "<group>"; };
+		DBB4715038E2BE1B52D70C03C1D9343B /* Pods-CreditApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CreditApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DDE6B503A497655B03E5B9A3FA9F9E32 /* Pods-CreditApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CreditApp-resources.sh"; sourceTree = "<group>"; };
+		E1242ED073B99A9D48D19D9ED8413388 /* SACountingLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SACountingLabel.swift; path = Pod/Classes/SACountingLabel.swift; sourceTree = "<group>"; };
+		E4450E977D11CE2FA9D5AF1174A6A2C9 /* Pods-CreditApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CreditApp.modulemap"; sourceTree = "<group>"; };
+		E7F19A574CDCEDD2E4C81C390E340ED4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCDEC12E613450BC6E5C8F2BD78778CB /* Pods-CreditApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CreditApp-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B5481CE326CAF26D40C933C04403B3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99B8945FF929A5F531A0F65ECC659E32 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD5448B1CF398B11D274F62F908D5EDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				118185AC6830562723C71DC0E3A4F8DB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCEADA953A4837400776EF882346D262 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E953990A136D9BE1F4A39D51515C07EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DF3C53EFE3748FE30D3EB2884AEAC66 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		216B0E98CCC6107E21026805930B7AEE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3788EED6762EDC2B8A160C567A6CE9F2 /* Graphs.modulemap */,
+				71EC80E7EBE7BC16B755CD61F65F7B8F /* Graphs.xcconfig */,
+				CFE3486C4F2835790E8342F4BDF497B3 /* Graphs-dummy.m */,
+				6D8C5A3570BBDF64A88DAF325B098AC2 /* Graphs-prefix.pch */,
+				42FE6F08D078AA4BC80EACD86C63110E /* Graphs-umbrella.h */,
+				9E9C12184A149C04F8DA27A093539827 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Graphs";
+			sourceTree = "<group>";
+		};
+		2471CB277E8E26105B31480A9C864112 /* Pods-CreditApp */ = {
+			isa = PBXGroup;
+			children = (
+				08F52EBC9B71333DDA7F73529EE3899F /* Info.plist */,
+				E4450E977D11CE2FA9D5AF1174A6A2C9 /* Pods-CreditApp.modulemap */,
+				DBB4715038E2BE1B52D70C03C1D9343B /* Pods-CreditApp-acknowledgements.markdown */,
+				FCDEC12E613450BC6E5C8F2BD78778CB /* Pods-CreditApp-acknowledgements.plist */,
+				CC4DAB243346996614DACAC9CBAA57FB /* Pods-CreditApp-dummy.m */,
+				A00B27252E624ED53FDFA250E6C91824 /* Pods-CreditApp-frameworks.sh */,
+				DDE6B503A497655B03E5B9A3FA9F9E32 /* Pods-CreditApp-resources.sh */,
+				86C2618214445CB9BDA390858D6FC229 /* Pods-CreditApp-umbrella.h */,
+				6A4D7AF437F2C141C72A8C1DA2708332 /* Pods-CreditApp.debug.xcconfig */,
+				D7361D13AB02CE447ECE45D507B6F0E5 /* Pods-CreditApp.release.xcconfig */,
+			);
+			name = "Pods-CreditApp";
+			path = "Target Support Files/Pods-CreditApp";
+			sourceTree = "<group>";
+		};
+		609BAEFB03415175652B74DE8ACD6215 /* SACountingLabel */ = {
+			isa = PBXGroup;
+			children = (
+				E1242ED073B99A9D48D19D9ED8413388 /* SACountingLabel.swift */,
+				C5ED4D9F33C4EC646BD440B6F75C60C9 /* Support Files */,
+			);
+			path = SACountingLabel;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7C3833A591DFC0145DB826FF07717471 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2471CB277E8E26105B31480A9C864112 /* Pods-CreditApp */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				C63B740156DC52802DF26EF5D48BBE65 /* Pods */,
+				98E3D610AC4D75AD4B395C4BC2443B76 /* Products */,
+				7C3833A591DFC0145DB826FF07717471 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		98E3D610AC4D75AD4B395C4BC2443B76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE8FAB28E4ED3014220655A6075D38F5 /* Graphs.framework */,
+				69576099CE206B264CE2C1E4A53CA9A1 /* Pods_CreditApp.framework */,
+				5A80BA24D0109DC6017D04A76A415FC3 /* SACountingLabel.bundle */,
+				32DC232FB7D97D536DE7D6E51FF5F678 /* SACountingLabel.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C5ED4D9F33C4EC646BD440B6F75C60C9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E7F19A574CDCEDD2E4C81C390E340ED4 /* Info.plist */,
+				5227D9A4E386959F4B3F08DFC0B2B7F4 /* ResourceBundle-SACountingLabel-Info.plist */,
+				4EBFE2206EF8F6BD87CC54581ACE50FA /* SACountingLabel.modulemap */,
+				4C3010A29B0869A23130240F25F1D1D6 /* SACountingLabel.xcconfig */,
+				460D07B5A336E9B41F43FA955EE2DF68 /* SACountingLabel-dummy.m */,
+				CA7F85DB6821CF5AA8255F2EABFC42BB /* SACountingLabel-prefix.pch */,
+				DB72EAD60D637EEAA2315849179986ED /* SACountingLabel-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SACountingLabel";
+			sourceTree = "<group>";
+		};
+		C63B740156DC52802DF26EF5D48BBE65 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E640373211264783064B3292F87A2DD6 /* Graphs */,
+				609BAEFB03415175652B74DE8ACD6215 /* SACountingLabel */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E640373211264783064B3292F87A2DD6 /* Graphs */ = {
+			isa = PBXGroup;
+			children = (
+				3DCA17D3B15660072D6CE1B085AA506D /* BarGraphView.swift */,
+				1655D1A194E5DE89F1015904E5714B1A /* Graph.swift */,
+				06AA464C587AD3E74CAE05B4A80FD0D8 /* GraphsExtensions.swift */,
+				CCBC48C71E06CF30999603A5441D5E99 /* GraphView.swift */,
+				6E442B5FE51A49DC32551D6C84C04894 /* LineGraphView.swift */,
+				57A8678A94B6B71B4ADFB43523AE10FA /* MultiBarGraphView.swift */,
+				2E178E7D68480890670CF13775270883 /* PieGraphView.swift */,
+				216B0E98CCC6107E21026805930B7AEE /* Support Files */,
+			);
+			path = Graphs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		042101EDB2ACC2201C687913120F718F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAB74D2E3218B1873B97CD9AFBC95503 /* Graphs-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D0FB912CC9CCF086F3F0340A1B37BCC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07420C1F68CEB3CA9E66FF663C49EB5C /* SACountingLabel-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83593B33D6B23B22545B1C48D9932DD1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BFF4FB2F63A06B7C3DCE7198D9ACCBE /* Pods-CreditApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9746C859D16D8C2606447FE6665ACA25 /* Pods-CreditApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1BB11C3685067862E1C519BB619C580 /* Build configuration list for PBXNativeTarget "Pods-CreditApp" */;
+			buildPhases = (
+				37917BFCC4C8EE5AF6FEC4342730E977 /* Sources */,
+				9B5481CE326CAF26D40C933C04403B3A /* Frameworks */,
+				83593B33D6B23B22545B1C48D9932DD1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3FF08D7C681CEC4E7B97F02FEF77E6A /* PBXTargetDependency */,
+				D2B093F7FA6C43982EA9C8133AC2BCC5 /* PBXTargetDependency */,
+			);
+			name = "Pods-CreditApp";
+			productName = "Pods-CreditApp";
+			productReference = 69576099CE206B264CE2C1E4A53CA9A1 /* Pods_CreditApp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D0381CD0E87A344E752FAC87DAEB84AD /* SACountingLabel-SACountingLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B92F68C8AC271A19E1F3104F0BD45AA /* Build configuration list for PBXNativeTarget "SACountingLabel-SACountingLabel" */;
+			buildPhases = (
+				81C2D5A0D4147182AB7C8FE996052CFF /* Sources */,
+				CCEADA953A4837400776EF882346D262 /* Frameworks */,
+				D386ED69F157750BF74B6D1B35F21548 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SACountingLabel-SACountingLabel";
+			productName = "SACountingLabel-SACountingLabel";
+			productReference = 5A80BA24D0109DC6017D04A76A415FC3 /* SACountingLabel.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		D49BA65D4364C8BF903247CFCC984149 /* SACountingLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E83A61E078F7A1C570B02FBD5174FF6C /* Build configuration list for PBXNativeTarget "SACountingLabel" */;
+			buildPhases = (
+				4A874AF3E0C1E306C42BEB60EBB5C000 /* Sources */,
+				E953990A136D9BE1F4A39D51515C07EB /* Frameworks */,
+				0AA25517CE90B7D555D378F265822A69 /* Resources */,
+				2D0FB912CC9CCF086F3F0340A1B37BCC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43EA68F101C097CA28C4BF0DAFAF9789 /* PBXTargetDependency */,
+			);
+			name = SACountingLabel;
+			productName = SACountingLabel;
+			productReference = 32DC232FB7D97D536DE7D6E51FF5F678 /* SACountingLabel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D9D31A7ECD48D53E170B20BA419477B9 /* Graphs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 169F103D38BF96A0E8910A499B3F3608 /* Build configuration list for PBXNativeTarget "Graphs" */;
+			buildPhases = (
+				D1550A52F182068FECBB637E8C92BCBC /* Sources */,
+				BD5448B1CF398B11D274F62F908D5EDB /* Frameworks */,
+				042101EDB2ACC2201C687913120F718F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Graphs;
+			productName = Graphs;
+			productReference = BE8FAB28E4ED3014220655A6075D38F5 /* Graphs.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 98E3D610AC4D75AD4B395C4BC2443B76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9D31A7ECD48D53E170B20BA419477B9 /* Graphs */,
+				9746C859D16D8C2606447FE6665ACA25 /* Pods-CreditApp */,
+				D49BA65D4364C8BF903247CFCC984149 /* SACountingLabel */,
+				D0381CD0E87A344E752FAC87DAEB84AD /* SACountingLabel-SACountingLabel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0AA25517CE90B7D555D378F265822A69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				368A34F78A8B09584F33BC2FE8AACAFD /* SACountingLabel.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D386ED69F157750BF74B6D1B35F21548 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37917BFCC4C8EE5AF6FEC4342730E977 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27D1787B9C566BC3D52136B035FE5AEF /* Pods-CreditApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A874AF3E0C1E306C42BEB60EBB5C000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D75ACCF8A1920568466E61665EE228D3 /* SACountingLabel-dummy.m in Sources */,
+				F62B3838848D567DD12AA41C7245A85A /* SACountingLabel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81C2D5A0D4147182AB7C8FE996052CFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1550A52F182068FECBB637E8C92BCBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05C51CD0745A9C40C59CC1E45DCA8660 /* BarGraphView.swift in Sources */,
+				49D0900318E0279CA383FBF50FD63CC9 /* Graph.swift in Sources */,
+				26CBEB259F7EEF2A5FD04637D19F8E3C /* Graphs-dummy.m in Sources */,
+				4C1B1578CEA3CD482D8AD350A56861B1 /* GraphsExtensions.swift in Sources */,
+				4C4BAEBE424486C710F024630E6BCD63 /* GraphView.swift in Sources */,
+				086D238E9B930ABDDCCCF8A51DF18E61 /* LineGraphView.swift in Sources */,
+				7DCA85E61A67827BD7C3DBA3D5E61752 /* MultiBarGraphView.swift in Sources */,
+				EFF8A44EA190B89FC5034FC6C29AE8DC /* PieGraphView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		43EA68F101C097CA28C4BF0DAFAF9789 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SACountingLabel-SACountingLabel";
+			target = D0381CD0E87A344E752FAC87DAEB84AD /* SACountingLabel-SACountingLabel */;
+			targetProxy = 9C30875CD066A8797174BEF441826A35 /* PBXContainerItemProxy */;
+		};
+		D2B093F7FA6C43982EA9C8133AC2BCC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SACountingLabel;
+			target = D49BA65D4364C8BF903247CFCC984149 /* SACountingLabel */;
+			targetProxy = EC996D03C6ADC10EF008A3687FF552CE /* PBXContainerItemProxy */;
+		};
+		D3FF08D7C681CEC4E7B97F02FEF77E6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Graphs;
+			target = D9D31A7ECD48D53E170B20BA419477B9 /* Graphs */;
+			targetProxy = F78C016D87242A28FF259E1013A6D221 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		015A368F878AC3E2CEAE21DDE8026304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		21B471619E4B8A54D0EDA6AC2591710A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71EC80E7EBE7BC16B755CD61F65F7B8F /* Graphs.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Graphs/Graphs-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Graphs/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Graphs/Graphs.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Graphs;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		224143E5C74ECEDBE9633EF196EAB2CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C3010A29B0869A23130240F25F1D1D6 /* SACountingLabel.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SACountingLabel";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/SACountingLabel/ResourceBundle-SACountingLabel-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = SACountingLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		3E6D95C1AB6583637A81D455BD9025CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A4D7AF437F2C141C72A8C1DA2708332 /* Pods-CreditApp.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CreditApp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CreditApp/Pods-CreditApp.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CreditApp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		566B6028512D9AA02968854C349F8F39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7361D13AB02CE447ECE45D507B6F0E5 /* Pods-CreditApp.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CreditApp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CreditApp/Pods-CreditApp.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CreditApp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B584210A568E7F1ACDB436D408F8FA90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71EC80E7EBE7BC16B755CD61F65F7B8F /* Graphs.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Graphs/Graphs-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Graphs/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Graphs/Graphs.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Graphs;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D3D14123BCA24DF9D38E59780173D6F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C3010A29B0869A23130240F25F1D1D6 /* SACountingLabel.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SACountingLabel/SACountingLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SACountingLabel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SACountingLabel/SACountingLabel.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SACountingLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DEE5D8DEDABC6A24CD4D353E33B27DE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C3010A29B0869A23130240F25F1D1D6 /* SACountingLabel.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SACountingLabel";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/SACountingLabel/ResourceBundle-SACountingLabel-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = SACountingLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		E2D1F24356ADCAC717FD8932DF19D508 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C3010A29B0869A23130240F25F1D1D6 /* SACountingLabel.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SACountingLabel/SACountingLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SACountingLabel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SACountingLabel/SACountingLabel.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SACountingLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		169F103D38BF96A0E8910A499B3F3608 /* Build configuration list for PBXNativeTarget "Graphs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21B471619E4B8A54D0EDA6AC2591710A /* Debug */,
+				B584210A568E7F1ACDB436D408F8FA90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				015A368F878AC3E2CEAE21DDE8026304 /* Debug */,
+				44CDBB6D11DE06DB64D6268622BDC47E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B92F68C8AC271A19E1F3104F0BD45AA /* Build configuration list for PBXNativeTarget "SACountingLabel-SACountingLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				224143E5C74ECEDBE9633EF196EAB2CD /* Debug */,
+				DEE5D8DEDABC6A24CD4D353E33B27DE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1BB11C3685067862E1C519BB619C580 /* Build configuration list for PBXNativeTarget "Pods-CreditApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E6D95C1AB6583637A81D455BD9025CD /* Debug */,
+				566B6028512D9AA02968854C349F8F39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E83A61E078F7A1C570B02FBD5174FF6C /* Build configuration list for PBXNativeTarget "SACountingLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2D1F24356ADCAC717FD8932DF19D508 /* Debug */,
+				D3D14123BCA24DF9D38E59780173D6F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
